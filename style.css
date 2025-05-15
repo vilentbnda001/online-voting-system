@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Login Styles */
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+/* Vote Page Styles */
+.vote-container {
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-list {
+    margin-bottom: 20px;
+}
+
+.candidate-card {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #f9f9f9;
+}
+
+.submit-btn {
+padding: 10px 20px;
+background-color: green;
+border: none;
+color: white;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit-btn:hover {
+background-color: darkgreen;
+}
+
+/* Admin Dashboard */
+.dashboard-container {
+padding: 30px;
+text-align: center;
+}
+
+.dashboard-actions {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.action-btn {
+background-color: #007bff;
+color: white;
+padding: 15px 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.action-btn:hover {
+background-color: #0056b3;
+}
+
+/* Success and Error Messages */
+.success {
+color: green;
+font-weight: bold;
+}
+
+.error {
+color: red;
+font-weight: bold;
+}    
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 350px;
+    background: #fff;
+    padding: 25px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.error-msg {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.register-link {
+    margin-top: 15px;
+    text-align: center;
+}
